@@ -1,0 +1,11 @@
+.clock {
+  height: 100vh;
+  background-color: rgb(29, 29, 29);
+}
+
+.clock h1 {
+  color: sandybrown;
+  font-size: 3rem;
+  position: relative;
+  top: 100px;
+}

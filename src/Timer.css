@@ -1,0 +1,8 @@
+.digital__clock {
+  position: relative;
+  top: 200px;
+  font-size: 4rem;
+  color: red;
+  opacity: 0.8;
+  font-family: fantasy;
+}

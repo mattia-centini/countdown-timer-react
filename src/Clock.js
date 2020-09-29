@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Timer from "./Timer";
+import "./Clock.css";
 
 function Clock({ year }) {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
@@ -23,8 +24,8 @@ function Clock({ year }) {
   }
 
   return (
-    <div>
-      <h1>This is a clock</h1>
+    <div className="clock">
+      <h1>Countdown to Christmas 🎄</h1>
       <Timer
         timeLeft={timeLeft}
         setTimeLeft={setTimeLeft}
